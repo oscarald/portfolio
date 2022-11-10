@@ -1,19 +1,20 @@
-import React, { useState } from 'react'
+import { useState } from "react"
+import logo from "../assets/images/BosKar.png"
 
 function Navbar() {
+    
     let links = [
         {name:"Home", link:"#"},
         {name:"Acerca de mí", link:"#"},
         {name:"Habilidades", link:"#"},
-        {name:"Servicios", link:"#"},
         {name:"Portafolio", link:"#"},
         {name:"Contacto", link:"#"},
     ]
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
   return (
     <>
     <div className='container mx-auto md:flex justify-between bg-slate-300 items-center '>
-        <div className='p-3'>Logo</div>
+        <div className='p-3'><img src={logo} alt="logo" /></div>
         <nav>
             <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={()=>setOpen(!open)}>
                 <ion-icon size="large" name={ open ? "close":"menu"}></ion-icon>
