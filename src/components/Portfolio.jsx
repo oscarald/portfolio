@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import techstore from "../assets/images/techstore.png";
+import techstore from "../assets/images/techstore.png"
 import videogames from "../assets/images/videogames.png"
 import ventas from "../assets/images/ventas.png"
 import Button2 from "./Button2";
