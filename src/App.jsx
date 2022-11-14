@@ -9,18 +9,18 @@ import Presentation from "./components/Presentation";
 
 function App() {
   return (
-    <>
+    <div className="dark:bg-[#1a1625]">
       <div className="bg-gray-200">
         <Navbar />
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <Presentation />
         <About />
         <Abilities />
         <Portfolio />
         <Contact />
       </div>
-    </>
+    </div>
   );
 }
 

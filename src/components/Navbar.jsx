@@ -1,5 +1,6 @@
 import { useState } from "react"
 import logo from "../assets/images/BosKar.png"
+import Switcher from "./Switcher"
 
 function Navbar() {
     
@@ -33,6 +34,7 @@ function Navbar() {
                     ))
                 }
             
+            <Switcher/>
             </ul>
         </nav>
     </div>

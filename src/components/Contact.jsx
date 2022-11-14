@@ -5,10 +5,10 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Contact() {
   return (
     <>
-      <p className="font-Poppins font-semibold text-4xl text-slate-800 text-center">
+      <p className="font-Poppins font-semibold text-4xl text-slate-800 text-center dark:text-gray-100">
         Contacto
       </p>
-      <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-center">
+      <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-center dark:text-slate-300">
         Envíame un mensaje
       </p>
       <div className="flex flex-col mt-14 mb-20 mx-32 lg:flex-row">
@@ -20,24 +20,24 @@ function Contact() {
               className="text-indigo-600 text-3xl hover:text-indigo-700 cursor-pointer mr-3"
             />
             <div className="content-start">
-              <div className="font-Poppins text-xl text-slate-800 font-semibold">
+              <div className="font-Poppins text-xl text-slate-800 font-semibold dark:text-slate-300">
                 WhatsApp
               </div>
-              <div className="font-Poppins text-base text-slate-600">
+              <div className="font-Poppins text-base text-slate-600 dark:text-slate-400">
                 +59174089941
               </div>
             </div>
           </div>
-          <div className="flex justify-end items-center">
+          <div className="flex justify-end items-center ">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="text-indigo-600 text-3xl hover:text-indigo-700 cursor-pointer mr-3"
             />
             <div>
-              <div className="font-Poppins text-xl text-slate-800 font-semibold">
+              <div className="font-Poppins text-xl text-slate-800 font-semibold dark:text-slate-300">
                 Email
               </div>
-              <div className="font-Poppins text-base text-slate-600">
+              <div className="font-Poppins text-base text-slate-600 dark:text-slate-400">
                 oscarald.mc@gmail.com
               </div>
             </div>

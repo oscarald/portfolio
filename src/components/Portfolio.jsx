@@ -41,16 +41,16 @@ const Portfolio = () => {
   ];
   return (
     <>
-      <p className="font-Poppins font-semibold text-4xl text-slate-800 text-center">
+      <p className="font-Poppins font-semibold text-4xl text-slate-800 text-center dark:text-gray-100">
         Portafolio
       </p>
-      <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-center">
+      <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-center dark:text-slate-400">
         Trabajos realizados
       </p>
       <div className="grid grid-cols-1 gap-4 mt-14 mb-20 lg:grid-cols-2 lg:mx-32">
         {projects.map((project) => (
-          <div className="shadow-lg border rounded-lg p-6">
-            <h3 className="font-Poppins font-semibold text-2xl text-slate-800 text-center mb-4">
+          <div className="shadow-xl border rounded-lg p-6 dark:border-0 dark:bg-[#141020]">
+            <h3 className="font-Poppins font-semibold text-2xl text-slate-800 text-center mb-4 dark:text-slate-300">
               {project.tittle}
             </h3>
             <img
@@ -58,7 +58,7 @@ const Portfolio = () => {
               alt={project.tittle}
               className="h-72 rounded-lg object-center mx-auto object-cover"
             />
-            <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-justify m-3">
+            <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-justify m-3 dark:text-slate-400">
               {project.section}
             </p>
             <a href={project.link} target="_blank">
