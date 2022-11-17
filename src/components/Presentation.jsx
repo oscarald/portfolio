@@ -5,7 +5,7 @@ import Button2 from "./Button2";
 
 function Presentation() {
   return (
-    <div className="grid sm:grid-cols-5 grid-cols-3 gap-3">
+    <div className="grid sm:grid-cols-5 grid-cols-3 gap-3" id="#home">
       <SocialLinks className="order-1" />
       <div className="col-span-3 sm:col-span-2 flex flex-col justify-center gap-4 order-3 sm:order-2 mx-5 sm:mx-0 mb-28">
         <h2 className="text-4xl font-Poppins font-semibold text-slate-800 dark:text-gray-100">
@@ -19,7 +19,7 @@ function Presentation() {
           gusta aprender nuevas cosas y buscar la mejor solución a los
           problemas.
         </p>
-        <Button2 name="Contacto" icon="faChevronRight"/>
+        <Button2 name="Contacto" icon="faChevronRight" link="#contact"/>
       </div>
 
       <div className="col-span-2 sm:py-60 py-10 order-2 sm:order-3">

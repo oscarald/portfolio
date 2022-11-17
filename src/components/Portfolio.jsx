@@ -41,7 +41,7 @@ const Portfolio = () => {
   ];
   return (
     <>
-      <p className="font-Poppins font-semibold text-4xl text-slate-800 text-center dark:text-gray-100">
+      <p className="font-Poppins font-semibold text-4xl text-slate-800 text-center dark:text-gray-100" id="#portfolio">
         Portafolio
       </p>
       <p className="font-Poppins  text-lg font-medium pt-3 text-slate-500 text-center dark:text-slate-400">

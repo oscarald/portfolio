@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faChevronRight, faDownload} from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect } from "react";
 
-function Button2({ name,icon }) {
+function Button2({ name,icon, link }) {
     
     const [icono, setIcono] = useState({})
     function iconDraw (icon) {
@@ -25,7 +25,7 @@ function Button2({ name,icon }) {
     iconDraw()
   return (
     <div className="mt-6">
-      <a href="" className="bg-indigo-600 p-3 font-Poppins rounded-md text-white hover:bg-indigo-700">
+      <a href={link} className="bg-indigo-600 p-3 font-Poppins rounded-md text-white hover:bg-indigo-700">
         {name}
         <FontAwesomeIcon icon={icono} className="text-xs ml-2"/>
     </a>
